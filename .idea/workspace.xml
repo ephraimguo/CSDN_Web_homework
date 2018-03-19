@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e4a0fdf-500e-4823-a752-032ae44d0bfa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK5_TUTORSEEHERE/bird.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK5_TUTORSEEHERE/hmwk.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK5_TUTORSEEHERE/wk5_homework.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/album/Album.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/album/albFinal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/album/album.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/album/bird.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/album/createReader.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/album/p.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/album/ss.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/bird.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/hmwk_origin.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/scss/rewirteStyleSheet.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/wk6_homework.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/wk6_homework_v2.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/hmwk_origin.css" afterPath="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/hmwk_origin.css" />
+      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/scss/rewirteStyleSheet.scss" afterPath="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/scss/rewirteStyleSheet.scss" />
+      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/wk6_homework_v2.html" afterPath="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/wk6_homework_v2.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,14 +18,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.31705847">
+    <splitter split-orientation="horizontal" split-proportion="0.283561">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="wk6_homework.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/wk6_homework.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="589">
-                  <caret line="99" column="14" lean-forward="true" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
+                <state relative-caret-position="1485">
+                  <caret line="99" column="14" lean-forward="false" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -47,8 +34,8 @@
           <file leaf-file-name="wk6_homework_v2.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/wk6_homework_v2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="359">
-                  <caret line="66" column="18" lean-forward="true" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+                <state relative-caret-position="105">
+                  <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
                   <folding />
                 </state>
               </provider>
@@ -57,14 +44,14 @@
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.49151027">
+        <splitter split-orientation="horizontal" split-proportion="0.4194609">
           <split-first>
-            <leaf>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file leaf-file-name="hmwk_origin.css" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/hmwk_origin.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="86">
-                      <caret line="95" column="2" lean-forward="false" selection-start-line="95" selection-start-column="2" selection-end-line="101" selection-end-column="9" />
+                    <state relative-caret-position="-2446">
+                      <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
                       <folding />
                     </state>
                   </provider>
@@ -73,12 +60,12 @@
             </leaf>
           </split-first>
           <split-second>
-            <leaf>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file leaf-file-name="rewirteStyleSheet.scss" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/scss/rewirteStyleSheet.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="491">
-                      <caret line="88" column="17" lean-forward="false" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+                    <state relative-caret-position="471">
+                      <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -87,9 +74,11 @@
               <file leaf-file-name="rewirteStyleSheet.css" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/css/rewirteStyleSheet.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-449">
+                    <state relative-caret-position="-829">
                       <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                      <folding />
+                      <folding>
+                        <marker date="1521475201000" expanded="true" signature="5319:5337" ph="{...}" />
+                      </folding>
                     </state>
                   </provider>
                 </entry>
@@ -129,10 +118,57 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1680" />
-    <option name="height" value="974" />
+    <option name="width" value="2560" />
+    <option name="height" value="1363" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code style issuesCSS</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>Pug/Jade</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -154,30 +190,36 @@
         <subPane>
           <expand>
             <path>
-              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
               <item name="HOMEWORK_WK6_TUTOSEERHERE" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="HOMEWORK_WK6_TUTOSEERHERE" type="462c0819:PsiDirectoryNode" />
+              <item name="album" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
               <item name="HOMEWORK_WK6_TUTOSEERHERE" type="462c0819:PsiDirectoryNode" />
               <item name="wk5_css_rewrite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
               <item name="HOMEWORK_WK6_TUTOSEERHERE" type="462c0819:PsiDirectoryNode" />
               <item name="wk5_css_rewrite" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
               <item name="HOMEWORK_WK6_TUTOSEERHERE" type="462c0819:PsiDirectoryNode" />
               <item name="wk5_css_rewrite" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
@@ -186,12 +228,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.9.4" />
@@ -199,6 +241,7 @@
     <property name="node.js.selected.package.tslint" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -238,6 +281,7 @@
       <option name="presentableId" value="Default" />
       <updated>1521445236507</updated>
       <workItem from="1521445238139" duration="4295000" />
+      <workItem from="1521463794979" duration="5597000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1521445342400</created>
@@ -250,27 +294,27 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4295000" />
+    <option name="totallyTimeSpent" value="9892000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="974" extended-state="6" />
+    <frame x="0" y="22" width="2560" height="1363" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18987341" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16384403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21160409" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34463722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -289,49 +333,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/album/album.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/album/Album.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK5_TUTORSEEHERE/hmwk.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="137" column="21" lean-forward="true" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK5_TUTORSEEHERE/wk5_homework.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/wk6_homework.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
+        <state relative-caret-position="1485">
           <caret line="99" column="14" lean-forward="true" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
           <folding />
         </state>
@@ -339,7 +343,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/wk6_homework_v2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
+        <state relative-caret-position="990">
           <caret line="66" column="18" lean-forward="true" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
           <folding />
         </state>
@@ -347,24 +351,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/hmwk_origin.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
+        <state relative-caret-position="1425">
           <caret line="95" column="2" lean-forward="false" selection-start-line="95" selection-start-column="2" selection-end-line="101" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/css/rewirteStyleSheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-449">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/scss/rewirteStyleSheet.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="88" column="17" lean-forward="false" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/album/album.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/album/Album.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK5_TUTORSEEHERE/hmwk.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="137" column="21" lean-forward="true" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK5_TUTORSEEHERE/wk5_homework.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/wk6_homework.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="99" column="14" lean-forward="false" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/css/rewirteStyleSheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-829">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521475201000" expanded="true" signature="5319:5337" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/hmwk_origin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2446">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/wk6_homework_v2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/scss/rewirteStyleSheet.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
         </state>
       </provider>
