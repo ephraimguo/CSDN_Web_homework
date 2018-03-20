@@ -5,9 +5,9 @@
   list-style: none;
 }
 
-/*.block{*/
-  /*display: block;*/
-/*}*/
+.block{
+  display: block;
+}
 
 .container{
   margin: 0 auto;

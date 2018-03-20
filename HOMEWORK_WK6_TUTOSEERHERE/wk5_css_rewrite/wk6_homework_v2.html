@@ -11,16 +11,20 @@
           const oProduct = document.querySelector('.main>.product');
           const oList = document.querySelector('.main>.product div');
           const oNav = document.querySelector('.main>nav>ul');
-          const oNavBtn = document.querySelector('.main>nav>ul>li');
+          const oNavBtn = document.querySelectorAll('.main>nav>ul>li');
           const oActive = document.querySelector('.active');
 
-          for(let i=0; i<27; i++){
+          console.log(oNav, oNavBtn);
+
+          for(var i=0; i<20; i++){
               oProduct.insertAdjacentHTML('beforeEnd', oList.outerHTML);
           }
 
           oActive.onclick = function () {
               oNav.classList.toggle('block');
-              oNavBtn.classList.toggle('block');
+              oNavBtn.forEach(btn=>{
+                  btn.classList.toggle('block');
+              });
           }
       }
     </script>

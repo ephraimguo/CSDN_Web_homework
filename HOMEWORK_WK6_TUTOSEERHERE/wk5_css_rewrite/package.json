@@ -1,11 +1,14 @@
 {
   "name": "wk5_css_rewrite",
   "version": "1.0.0",
-  "description": "rewrite wk5 css as SCSS",
+  "description": "homework rewrite wk5 ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Ephraim Guo",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
 }
