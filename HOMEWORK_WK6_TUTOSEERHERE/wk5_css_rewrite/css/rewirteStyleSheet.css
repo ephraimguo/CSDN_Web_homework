@@ -1,0 +1,67 @@
+* {
+  font-family: "Helvetica", "Heiti SC", sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body > .container {
+  margin: 0 auto;
+  border: #333;
+  border-radius: 15px;
+  max-width: 1018px;
+  min-width: 400px;
+  min-height: 500px;
+  border-left: 40px solid aquamarine;
+  border-radius: 20px; }
+  body > .container hr {
+    height: 2px;
+    background: #ccc;
+    opacity: 0.8;
+    margin-bottom: 0; }
+  body > .container > header {
+    background: linear-gradient(to right, aquamarine, darkcyan); }
+    body > .container > header .heading {
+      font-weight: bold;
+      color: #fff;
+      padding: 0 15px; }
+    body > .container > header span.description {
+      padding-left: 15px;
+      font-size: 13px;
+      color: #aaa; }
+  body > .container > .main {
+    min-height: 500px;
+    padding-right: 150px;
+    position: relative; }
+    body > .container > .main > nav {
+      height: 40px;
+      background: linear-gradient(to right, aquamarine, darkcyan); }
+      body > .container > .main > nav > ul > li {
+        display: inline-block;
+        position: relative; }
+        body > .container > .main > nav > ul > li > a {
+          text-decoration: none;
+          font-size: 15px;
+          font-weight: 100;
+          line-height: 40px;
+          padding: 15px;
+          color: #fff;
+          transition: color 1s, linear 0.2s; }
+          body > .container > .main > nav > ul > li > a:hover {
+            color: #555;
+            text-decoration: underline; }
+      body > .container > .main > nav .dropdown-1 {
+        display: none;
+        background: darkcyan;
+        padding-left: 10px;
+        position: absolute;
+        width: 100px; }
+        body > .container > .main > nav .dropdown-1 > li {
+          position: relative; }
+        body > .container > .main > nav .dropdown-1 .inner-dropdown {
+          display: none;
+          background: linear-gradient(to right, darkcyan, aquamarine);
+          padding-left: 10px;
+          position: absolute;
+          width: 100px;
+          left: 100px;
+          top: 0; }
