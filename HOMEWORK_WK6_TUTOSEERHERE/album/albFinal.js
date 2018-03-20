@@ -4,21 +4,15 @@ window.onload = function(){
     var albumPhotoList = {
         'default':[]
     };
-
     function albumAdding(alb){
         albumNameArr.push(alb);
         albumPhotoList[alb] = [];
     }
-
     function photoAdding(alb, photo){
         albumPhotoList[alb].push(photo);
     }
 
-
-
     // display setting
-
-
     var albumTitle = document.querySelector('.album-title');        //album title displayed at the title bar
     var albumList = document.querySelector('.album-list');          //album list contains all the albumLi containing album link
     var photoList = document.querySelector('.photo-list');          //photo list containing all the photos
@@ -31,8 +25,7 @@ window.onload = function(){
 
     var currentAlbum = 'default';       // initiate current album as default
     var currentPage = 1;                // initiate current page as 1
-    var photoPerPage = 5;               // assign the photos per page
-
+    var photoPerPage = 3;               // assign the photos per page
 
     // add event listener for creating new album button
     btnCreateAlbum.addEventListener('click', function(ev){
@@ -40,7 +33,6 @@ window.onload = function(){
         albumAdding(albumName);
         renderAlbumList();
     });
-
 
     // add event listen for add photo button
     btnAddPhoto.onchange = function(ev) {
@@ -58,11 +50,8 @@ window.onload = function(){
     //render photo list, to display the chosen album photos
     function renderPhotoList(){
         photoList.innerHTML = "";
-        // pagination();
-        // let currentImg = albumPhotoList[currentAlbum];
         let currentImg = [];
         for(let i=(currentPage-1)*photoPerPage; i<(currentPage)*photoPerPage; i++){
-            // albumPhotoList[currentAlbum][i]!==undefined ? currentImg.push(albumPhotoList[currentAlbum][i]):console.log('no enough pic');
             if(albumPhotoList[currentAlbum] && albumPhotoList[currentAlbum][i]!==undefined && albumPhotoList[currentAlbum][i]!==null){
                 currentImg.push(albumPhotoList[currentAlbum][i]);
             }
@@ -78,12 +67,21 @@ window.onload = function(){
 
             button.addEventListener('click', function(ev){
                 // albumPhotoList[currentAlbum].splice(cPh,1)
-                let index = albumPhotoList[currentAlbum].indexOf(cPh);
-                albumPhotoList[currentAlbum].splice(index, 1);
-                pagination();
-                renderPhotoList();
-            });
+                if(currentImg.length>1){
+                    let index = albumPhotoList[currentAlbum].indexOf(cPh);
+                    albumPhotoList[currentAlbum].splice(index, 1);
+                    pagination();
+                    renderPhotoList();
+                }
+                else{
+                    currentPage -= 1;
+                    let index = albumPhotoList[currentAlbum].indexOf(cPh);
+                    albumPhotoList[currentAlbum].splice(index, 1);
+                    pagination();
+                    renderPhotoList();
+                }
 
+            });
             photo.className = "photo";
             photo.appendChild(cPh);
             photo.appendChild(button);
@@ -111,17 +109,20 @@ window.onload = function(){
                 currentAlbum = albName;
                 renderPhotoList();
                 pagination();
-                albumTitle.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;" + `${albName}`;
+                albumTitle.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;" + `${currentAlbum}`;
             });
 
             btnDelAlbum.addEventListener('click', function(ev){
                 let name = btnDelAlbum.previousElementSibling.innerHTML;
                 console.log(name);
-                albumNameArr.splice(name,1);
+                let index = albumNameArr.indexOf(name);
+                albumNameArr.splice(index, 1);
                 delete albumPhotoList[name];
-                currentAlbum = 'default';
+                albumTitle.innerHTML = "";
+                currentAlbum = albumNameArr[0]?albumNameArr[0]: currentAlbum="";
                 currentPage = 1;
                 renderPhotoList();
+                // currentAlbum = albumNameArr[0]?albumNameArr[0]: alert('No Album Yet');
                 renderAlbumList();
             });
 
@@ -141,16 +142,36 @@ window.onload = function(){
         renderPhotoList();
     }
 
-
     // adding pagination at the buttom part
     function pagination(){
-        pageNav.innerHTML = `<li><a>First</a></li>`;
-        let pageNavLast = `
-        <li><a>Last</a></li>
-        `;
-        let length = albumPhotoList[currentAlbum].length;
-        // let pageNavLink = '<li><a>First</a></li>';
+        pageNav.innerHTML = "";
+        let pageNavFirstLink = document.createElement('a');
+        let pageNavLastLink = document.createElement('a');
+        let pageNavFirst = document.createElement('li');
+        let pageNavLast = document.createElement('li');
 
+        pageNavFirstLink.innerHTML = 'First';
+        pageNavLastLink.innerHTML = 'Last';
+
+        // pageNav.innerHTML = `<li><a>First</a></li>`;
+        // let pageNavLast = `
+        // <li><a>Last</a></li>
+        // `;
+        let length = albumPhotoList[currentAlbum].length;
+
+        pageNavFirstLink.addEventListener('click', function(ev){
+            currentPage = 1;
+            renderPhotoList();
+        });
+        pageNavLastLink.addEventListener('click', function(ev){
+            currentPage = length/photoPerPage>0?Math.ceil(length/photoPerPage):1;
+            console.log(currentPage);
+            renderPhotoList();
+        });
+
+        pageNavFirst.appendChild(pageNavFirstLink);
+        pageNavLast.appendChild(pageNavLastLink);
+        pageNav.appendChild(pageNavFirst);
 
         for(let i = 0; i<length/photoPerPage; i++){
             let pageNavLink = document.createElement('a');
@@ -163,10 +184,9 @@ window.onload = function(){
             pageNavLi.appendChild(pageNavLink);
             pageNav.appendChild(pageNavLi);
         }
-        pageNav.insertAdjacentHTML('beforeend', pageNavLast);
+        pageNav.appendChild(pageNavLast)
 
     }
-
     renderAlbumList();
 };
 
