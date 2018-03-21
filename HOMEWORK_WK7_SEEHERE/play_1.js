@@ -13,7 +13,7 @@ function cpdir(oldDirPath, newDirPath) {
         fs.readdir(oldDirPath, function (err1, fileList) {
             if (err1) {
                 console.log("err1", err1);
-                reject(b);
+                reject(f);
             }
             else {
                 fileList.forEach(file => {
@@ -45,7 +45,7 @@ function cpdir(oldDirPath, newDirPath) {
 
 
 let p = cpdir(__dirname+"/dirTest1", __dirname+"/dirTest2");
-p.then((r)=>{console.log('Success');}).catch(error=>{console.log("FAILED");});
+p.then((r)=>{console.log('------Success');console.log("resolved a",r)}).catch(error=>{console.log("FAILED", error);});
 
 
 
