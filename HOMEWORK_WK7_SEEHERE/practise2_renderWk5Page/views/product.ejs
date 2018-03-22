@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="week 5 home work for 3 levels dropdown menu and responsive layout for mobile end">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>week 6 home work</title>
+    <link rel="stylesheet" href="/stylesheets/hmwk.css">
+    <script>
+        window.onload=function(){
+            const oProduct = document.querySelector('.main>.product');
+            const oList = document.querySelector('.main>.product div');
+            const oNav = document.querySelector('.main>nav>ul');
+            const oNavBtn = document.querySelectorAll('.main>nav>ul>li');
+            const oActive = document.querySelector('.active');
+
+            console.log(oNav, oNavBtn);
+
+            oActive.onclick = function () {
+                oNav.classList.toggle('block');
+                oNavBtn.forEach(btn=>{
+                    btn.classList.toggle('block');
+                });
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <!-- header start -->
+    <header>
+        <hgroup>
+            <h1 class='heading'>Home Page</h1>
+            <h4 class='heading'>Home Page for Week 5 home work. </h4>
+        </hgroup>
+        <hr>
+        <section>
+            <p>
+            <span class='description'>
+                -Implement 3 levels dropdown navigation bar. <br>
+            </span>
+                <span class='description'>
+                -Implement responsive mobile layout.
+            </span>
+            </p>
+        </section>
+    </header>
+    <!-- header end -->
+
+    <!-- product section starts -->
+    <div class="main">
+        <!--nav bar start-->
+        <nav>
+            <hr>
+            <ul>
+                <li><a href="#">HOME PAGE</a></li>
+                <li><a href="#">PRODUCT</a></li>
+                <li><a href="#">PROJECT</a>
+                    <ul class="dropdown-1">
+                        <li><a href="">NodeJs</a>
+                            <ul class="dropdown-2-1 inner-dropdown">
+                                <li><a href="">session 1</a></li>
+                                <li><a href="">session 2</a></li>
+                                <li><a href="">session 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Express</a>
+                            <ul class="dropdown-2-2 inner-dropdown">
+                                <li><a href="">session 1</a></li>
+                                <li><a href="">session 2</a></li>
+                                <li><a href="">session 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">FullStack</a>
+                            <ul class="dropdown-2-3 inner-dropdown">
+                                <li><a href="">session 1</a></li>
+                                <li><a href="">session 2</a></li>
+                                <li><a href="">session 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">ABOUT US</a></li>
+            </ul>
+            <li><a href="#" class="active"> >>> </a></li>
+        </nav>
+        <!--nav bar end-->
+
+        <h2>Display Gallery</h2>
+        <%for(let i=0; i<20; i++){%>
+
+        <div class="product">
+            <div class="list">
+                <h4>Product Name</h4>
+                <img src="/images/bird.jpeg" alt="this is a bird pictures">
+                <p>Some Descriptions</p>
+            </div>
+        </div>
+
+
+        <%}%>
+
+
+        <div class="right">
+            <p>side bar</p>
+        </div>
+
+    </div>
+    <!-- product section ends -->
+
+    <footer>
+        <div>
+            <hr>
+            <img src="/images/bird.jpeg" alt="this is logo">
+            <p><span>Bird Website</span></p>
+        </div>
+        <div>
+            <hr>
+            <img src="/images/bird.jpeg" alt="this is logo">
+            <p><span>Bird Website</span></p>
+        </div>
+        <div>
+            <hr>
+            <img src="/images/bird.jpeg" alt="this is logo">
+            <p><span>Bird Website</span></p>
+        </div>
+    </footer>
+
+</div>
+
+</body>
+</html>
