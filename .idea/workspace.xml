@@ -1,51 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e4a0fdf-500e-4823-a752-032ae44d0bfa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/db.json" />
+    <list default="true" id="3e4a0fdf-500e-4823-a752-032ae44d0bfa" name="Default" comment="wk7 server version alb start --1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/.bin/express" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/bin/express-cli.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/css/style.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/css/style.sass" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/css/style.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/css/style.styl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/js/app.js.ejs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/js/gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/js/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/js/routes/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/js/routes/users.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/js/www.ejs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/error.dust" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/error.ejs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/error.hbs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/error.hjs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/error.jade" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/error.pug" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/error.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/error.vash" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/index.dust" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/index.ejs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/index.hbs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/index.hjs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/index.jade" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/index.pug" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/index.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/index.vash" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/layout.hbs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/layout.jade" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/layout.pug" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/layout.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/express-generator/templates/views/layout.vash" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/sorted-object/LICENSE.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/sorted-object/lib/sorted-object.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules/sorted-object/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/package-lock.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/package.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/package.json" />
+      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/views/index.ejs" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/views/index.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,7 +22,7 @@
           <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise2_renderWk5Page/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="242">
+                <state relative-caret-position="23">
                   <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
                   <folding />
                 </state>
@@ -84,12 +42,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/views/index.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="317">
-                  <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+                <state relative-caret-position="435">
+                  <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -98,8 +56,8 @@
           <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="334">
-                  <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+                <state relative-caret-position="460">
+                  <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -109,7 +67,7 @@
             <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/db.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="0">
-                  <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+                  <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
                   <folding />
                 </state>
               </provider>
@@ -178,8 +136,7 @@
     <handled-path value="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules" />
     <handled-path value="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise2_renderWk5Page/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="13" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1680" />
     <option name="height" value="974" />
@@ -354,7 +311,8 @@
       <workItem from="1521594297008" duration="10314000" />
       <workItem from="1521685095960" duration="6903000" />
       <workItem from="1522306737764" duration="518000" />
-      <workItem from="1522307282367" duration="5521000" />
+      <workItem from="1522307282367" duration="5841000" />
+      <workItem from="1522319589011" duration="291000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1521445342400</created>
@@ -412,14 +370,29 @@
       <option name="project" value="LOCAL" />
       <updated>1522306955414</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="wk7 server version alb start">
+      <created>1522315333477</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1522315333477</updated>
+    </task>
+    <task id="LOCAL-00010" summary="wk7 server version alb start --1">
+      <created>1522315387635</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1522315387635</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39344000" />
+    <option name="totallyTimeSpent" value="39955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="974" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18625678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -428,7 +401,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24217844" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24217844" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -452,7 +425,9 @@
     <MESSAGE value="wk7 play_1 done" />
     <MESSAGE value="wk7 play_2 done" />
     <MESSAGE value="wk7 album start" />
-    <option name="LAST_COMMIT_MESSAGE" value="wk7 album start" />
+    <MESSAGE value="wk7 server version alb start" />
+    <MESSAGE value="wk7 server version alb start --1" />
+    <option name="LAST_COMMIT_MESSAGE" value="wk7 server version alb start --1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -685,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4810">
           <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -693,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +694,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise2_renderWk5Page/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="23">
           <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
           <folding />
         </state>
@@ -732,23 +703,23 @@
     <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/db.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="460">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="435">
+          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
           <folding />
         </state>
       </provider>
