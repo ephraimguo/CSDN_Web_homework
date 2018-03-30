@@ -25,6 +25,4 @@ router.get("/img/:name", function(req, res){
   fs.createReadStream("tempImg/"+req.params.name).pipe(res);
 });
 
-
-
 module.exports = router;

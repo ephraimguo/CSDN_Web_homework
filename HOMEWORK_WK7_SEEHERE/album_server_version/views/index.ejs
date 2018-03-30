@@ -18,15 +18,54 @@
         <%})%>
     </div>
     <script type="text/javascript">
-      var xhr = new XMLHttpRequest();
-      xhr.onreadystatechange = function(){
-        if(xhr.status===400 && xhr.readyState===4){
-          xhr.response
-        }
+      function createElement(htmltext){
+        const div = document.createElement("div");
+        div.innerHTML = htmltext;
+        return div.firstElementChild;
       }
-      xhr.open("post", "/upload");
-      xhr.send();
-    </script>
 
+      const oInput = createElement(`
+      <input type="file" style="display:none;">
+      `);
+      const oAnchor = createElement(`
+      <a href="#"> add image </a>
+      `);
+
+      oAnchor.addEventListener("click", function(ev){
+        oInput.click();
+      });
+      const photos = document.querySelector(".photos");
+
+      oInput.addEventListener("click", function(ev){
+        let file = event.target.files[0];
+
+        var formdata = new FormData();
+        formdata.append("myImg", file);
+        upload(formdata);
+
+        var reader = new FileReader();
+        reader.onload = function(){
+          var img = new Image();
+          img.src = reader.result;
+          photos.appendChild(img);
+        }
+        reader.readAsDataURL(file);
+      });
+
+      document.body.insertAdjacentElement("afterBegin", oAnchor);
+      document.body.insertAdjacentElement("afterBegin", oInput)
+
+      function upload(formdata){
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function(){
+          if(xhr.status===400 && xhr.readyState===4){
+            console.log(xhr.response);
+          }
+        }
+        xhr.open("post", "/upload");
+        xhr.send(formdata);
+      }
+
+    </script>
   </body>
 </html>
