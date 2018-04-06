@@ -1,15 +1,28 @@
+// var albumNameJson = require("routes/photoName");
+// var photoListJson = require("routes/photoList");
+// var albumNameJson = import("routes/photoName.json");
+// import{
+
+
+
 window.onload = function(){
     // caculating
-    var albumNameArr = ['default'];
-    var albumPhotoList = {
-        'default':[]
-    };
+    // var albumNameArr = ['default'];
+    // var albumPhotoList = {
+    //     'default':[]
+    // };
+  // var  photoListX = photoListJson;
+  // var  photoName = albumNameJson;
+
     function albumAdding(alb){
-        albumNameArr.push(alb);
-        albumPhotoList[alb] = [];
+        // albumNameArr.push(alb);
+        // albumPhotoList[alb] = [];
+        albumNameJson.push(alb);
+        photoListJson[alb]=[];
     }
     function photoAdding(alb, photo){
-        albumPhotoList[alb].push(photo);
+        // albumPhotoList[alb].push(photo);
+        photoListJson[alb].push(photo);
     }
 
     // display setting
@@ -29,8 +42,6 @@ window.onload = function(){
 
     // add event listener for creating new album button
     btnCreateAlbum.addEventListener('click', function(ev){
-        const dummy = document.querySelector('#dummy');
-        // let dummy.value =  window.prompt('Album Name');
         let albumName = window.prompt('Album Name');
         albumAdding(albumName);
         renderAlbumList();
@@ -54,8 +65,11 @@ window.onload = function(){
         photoList.innerHTML = "";
         let currentImg = [];
         for(let i=(currentPage-1)*photoPerPage; i<(currentPage)*photoPerPage; i++){
-            if(albumPhotoList[currentAlbum] && albumPhotoList[currentAlbum][i]!==undefined && albumPhotoList[currentAlbum][i]!==null){
-                currentImg.push(albumPhotoList[currentAlbum][i]);
+            // if(albumPhotoList[currentAlbum] && albumPhotoList[currentAlbum][i]!==undefined && albumPhotoList[currentAlbum][i]!==null){
+            //     currentImg.push(albumPhotoList[currentAlbum][i]);
+            // }
+            if(photoListJson[currentAlbum] && photoListJson[currentAlbum][i]!==undefined && photoListJson[currentAlbum][i]!==null){
+                currentImg.push(photoListJson[currentAlbum][i]);
             }
             else{
                 console.log('no enough pic');
@@ -68,17 +82,20 @@ window.onload = function(){
             button.innerText = "X";
 
             button.addEventListener('click', function(ev){
-                // albumPhotoList[currentAlbum].splice(cPh,1)
                 if(currentImg.length>1){
-                    let index = albumPhotoList[currentAlbum].indexOf(cPh);
-                    albumPhotoList[currentAlbum].splice(index, 1);
+                    // let index = albumPhotoList[currentAlbum].indexOf(cPh);
+                    // let index = photoListJson[currentAlbum].indexOf(cPh);
+                    // albumPhotoList[currentAlbum].splice(index, 1);
+                    photoListJson[currentAlbum].splice(index, 1);
                     pagination();
                     renderPhotoList();
                 }
                 else{
                     currentPage -= 1;
-                    let index = albumPhotoList[currentAlbum].indexOf(cPh);
-                    albumPhotoList[currentAlbum].splice(index, 1);
+                    // let index = albumPhotoList[currentAlbum].indexOf(cPh);
+                    let index = photoListJson[currentAlbum].indexOf(cPh);
+                    // albumPhotoList[currentAlbum].splice(index, 1);
+                    photoListJson[currentAlbum].splice(index, 1);
                     pagination();
                     renderPhotoList();
                 }
@@ -94,7 +111,9 @@ window.onload = function(){
     //render album list, to display the chosen album and add event to album link
     function renderAlbumList(){
         albumList.innerHTML = '';
-        albumNameArr.forEach(albName=>{
+        // albumNameArr.forEach(albName=>{
+        // albumNameJson.forEach(albName=>{
+        for(let albName of albumNameJson){
             let album = document.createElement("li");
             album.className = "album";
 
@@ -117,14 +136,19 @@ window.onload = function(){
             btnDelAlbum.addEventListener('click', function(ev){
                 let name = btnDelAlbum.previousElementSibling.innerHTML;
                 console.log(name);
-                let index = albumNameArr.indexOf(name);
-                albumNameArr.splice(index, 1);
-                delete albumPhotoList[name];
+                // let index = albumNameArr.indexOf(name);
+                let index = albumNameJson.indexOf(name);
+                // albumNameArr.splice(index, 1);
+                albumNameJson.splice(index, 1);
+                // delete albumPhotoList[name];
+                delete photoListJson[name];
                 albumTitle.innerHTML = "";
-                currentAlbum = albumNameArr[0]?albumNameArr[0]: currentAlbum="";
+                // currentAlbum = albumNameArr[0]?albumNameArr[0]: currentAlbum="";
+                currentAlbum = albumNameJson[0]?albumNameJson[0]: currentAlbum="";
                 currentPage = 1;
                 renderPhotoList();
                 // currentAlbum = albumNameArr[0]?albumNameArr[0]: alert('No Album Yet');
+                currentAlbum = albumNameJson[0]?albumNameJson[0]: alert('No Album Yet');
                 renderAlbumList();
             });
 
@@ -134,7 +158,7 @@ window.onload = function(){
             album.appendChild(albumLink);
             album.appendChild(btnDelAlbum);
             albumList.appendChild(album);
-        });
+        }
     }
 
     // upload photo to album photo list[] and render the photo list
@@ -155,11 +179,8 @@ window.onload = function(){
         pageNavFirstLink.innerHTML = 'First';
         pageNavLastLink.innerHTML = 'Last';
 
-        // pageNav.innerHTML = `<li><a>First</a></li>`;
-        // let pageNavLast = `
-        // <li><a>Last</a></li>
-        // `;
-        let length = albumPhotoList[currentAlbum].length;
+        // let length = albumPhotoList[currentAlbum].length;
+        let length = photoListJson[currentAlbum].length;
 
         pageNavFirstLink.addEventListener('click', function(ev){
             currentPage = 1;
