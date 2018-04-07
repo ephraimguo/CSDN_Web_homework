@@ -19,23 +19,31 @@
   <div class="content">
     <div class="box left">
       <ul class="album-list">
-        <li class="album">
-          <a href="#" class="album-link">default</a>
+        <!--<li class="album">-->
+          <!--<a href="#" class="album-link">default</a>-->
+          <!--<button class="btn-del-album">X</button>-->
+        <!--</li>-->
+        <% photoName.forEach(phn=>{ %>
+          <li class="album">
+          <a href="/album1/<%=phn%>" class="album-link"><%=phn%></a>
           <button class="btn-del-album">X</button>
-        </li>
+          </li>
+        <% }) %>
+
 
       </ul>
     </div>
 
     <div class="box display">
       <div class="button-grp">
-        <form class="form-addname" action="/album_1/addPhotoName" method="post" enctype="multipart/form-data">
+        <form class="form-addname" action="/album1/addPhotoName" method="post">
           <input id="new-alb" type="text" placeholder="Album Name" name="new-album">
           <input type="submit" value="Go~">
         </form>
-        <form class="form-addphoto" action="/album_1/addPhotos" method="post" enctype="multipart/form-data">
-          <label for="add-file">+ Add Photo</label>
+        <form class="form-addphoto" action="/album1/addPhotos" method="post" enctype="multipart/form-data">
+          <!--<label for="add-file">+ Add Photo</label>-->
           <input id='add-file' type="file" name="singlePhoto">
+          <input type="submit" value="GoGo~">
         </form>
       </div>
 

@@ -118,8 +118,8 @@ header h4>span{
     cursor: pointer;
 }
 .button-grp .form-addphoto input:last-child{
-    position:absolute;
-    clip:rect(0 0 0 0);
+    /*position:absolute;*/
+    /*clip:rect(0 0 0 0);*/
 }
 .button-grp label{
     background-color: #45af3b;
