@@ -1,6 +1,6 @@
 const exp= require("express");
 const router = exp.Router();
-const photoName = require("./photoName");
+const albumName = require("./photoName");
 const photoList = require("./photoList");
 const fs = require("fs");
 
@@ -14,19 +14,19 @@ var currentAlbum = "default";
 
 
 router.get('/', function(req, res){
-  res.render('album', {photoName, photoList, currentAlbum});
+  res.render('album', {albumName, photoList, currentAlbum});
 });
 
-router.post('/addPhotoName', function(req, res) {
+router.post('/addAlbumName', function(req, res) {
   const albName = req.body["new-album"];
-  photoName.push(albName);
+  albumName.push(albName);
   photoList[albName] = [];
 
   console.log(photoList[albName], '--------');
-  // console.log(photoName, "------------");
-  fs.writeFileSync(__dirname + "/photoName.json", JSON.stringify(photoName));
+  // console.log(albumName, "------------");
+  fs.writeFileSync(__dirname + "/photoName.json", JSON.stringify(albumName));
   fs.writeFileSync(__dirname + "/photoList.json", JSON.stringify(photoList));
-  // fs.writeFileSync(__dirname + "/photoName.json", photoName);
+  // fs.writeFileSync(__dirname + "/photoName.json", albumName);
   res.redirect("back");
 });
 
@@ -38,11 +38,15 @@ router.post('/addPhotos', addPhoto, function(req, res){
   res.redirect("back");
 });
 
-router.get('/:photoName', function(req, res){
+router.get('/:albumName', function(req, res){
   // here also need some codes
-  currentAlbum = req.params.photoName;
+  fs.createReadStream(__dirname+"/photosFolder/"+req.params.albumName).pipe(res);
+  // res.redirect("back");
+});
+
+router.get('/albums/:albumName', function(req, res){
+  currentAlbum = req.params.albumName;
   res.redirect("back");
-  // fs.createReadStream(__dirname + "/photosFolder/"+req.params.name).pipe(res);
 });
 
 

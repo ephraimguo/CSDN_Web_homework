@@ -10,7 +10,7 @@
 <div class="container">
   <header>
     <hgroup>
-      <h4>Album Name<span class="album-title">&nbsp;&nbsp;&nbsp;&nbsp; default</span></h4>
+      <h4>Album Name<span class="album-title">&nbsp;&nbsp;&nbsp;&nbsp; <%=currentAlbum%></span></h4>
     </hgroup>
 
   </header>
@@ -23,9 +23,9 @@
           <!--<a href="#" class="album-link">default</a>-->
           <!--<button class="btn-del-album">X</button>-->
         <!--</li>-->
-        <% photoName.forEach(phn=>{ %>
+        <% albumName.forEach(albn=>{ %>
           <li class="album">
-          <a href="/album1/<%=phn%>" class="album-link"><%=phn%></a>
+          <a href="/album1/albums/<%=albn%>/" class="album-link"><%=albn%></a>
           <button class="btn-del-album">X</button>
           </li>
         <% }) %>
@@ -36,7 +36,7 @@
 
     <div class="box display">
       <div class="button-grp">
-        <form class="form-addname" action="/album1/addPhotoName" method="post">
+        <form class="form-addname" action="/album1/addAlbumName" method="post">
           <input id="new-alb" type="text" placeholder="Album Name" name="new-album">
           <input type="submit" value="Go~">
         </form>
@@ -49,6 +49,12 @@
 
       <div class="wrapper">
         <div class="photo-list show">
+          <% photoList[currentAlbum].forEach(ph=>{ %>
+          <div class="photo">
+            <img src="/album1/<%=ph%>" alt="photos">
+            <button>X</button>
+          </div>
+          <% })%>
 
         </div>
       </div>
