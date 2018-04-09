@@ -3,22 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3e4a0fdf-500e-4823-a752-032ae44d0bfa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/albumRouter_v1.js" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/albumRouter_v1.js" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photoList.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photoList.json" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photoName.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photoName.json" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photosFolder/0847bd8d58d32ee83f307fff1cf880eb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photosFolder/0df1f19950bfad10602ce7b7152c3c7c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photosFolder/4e5ab5e80ab23c771ed7d359817b9468" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photosFolder/55374c71de4e3f83781c505d9cac9ebe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photosFolder/615a44297c2117be23120d3ea4338f83" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photosFolder/8123cafacbff41dec37538a501e0a0dc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photosFolder/b8305bcc2f76f447f1de38b8c8272b7d" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/tempImg/13078a8f690a73c36283398e6385e088" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/tempImg/361386339309be873e5b2d3ea7c576ec" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/tempImg/44827a00307792b53b709dae79c11986" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/tempImg/487b1e8a19c160b30f2e6f3a51660b76" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/tempImg/be21106087a886c698fd92a96c44338d" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/views/album.ejs" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/views/album.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,14 +15,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44754317">
+    <splitter split-orientation="horizontal" split-proportion="0.4555113">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="albumRouter_v1.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/albumRouter_v1.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="173">
-                  <caret line="58" column="13" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+                <state relative-caret-position="278">
+                  <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -71,8 +55,8 @@
           <file leaf-file-name="album.ejs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/views/album.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="54" column="34" lean-forward="false" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+                <state relative-caret-position="307">
+                  <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -82,7 +66,7 @@
             <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/album/albFinal.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="252">
-                  <caret line="162" column="0" lean-forward="true" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+                  <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -172,7 +156,7 @@
     <handled-path value="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise2_renderWk5Page/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="17" />
+    <option name="x" value="30" />
     <option name="y" value="23" />
     <option name="width" value="1804" />
     <option name="height" value="1008" />
@@ -365,7 +349,7 @@
       <workItem from="1522978530949" duration="12146000" />
       <workItem from="1523176965694" duration="5811000" />
       <workItem from="1523202041057" duration="7000" />
-      <workItem from="1523240222671" duration="14420000" />
+      <workItem from="1523240222671" duration="14785000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1521445342400</created>
@@ -444,14 +428,21 @@
       <option name="project" value="LOCAL" />
       <updated>1523126605175</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="server album now can read the photos name">
+      <created>1523264260774</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1523264260774</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84384000" />
+    <option name="totallyTimeSpent" value="84749000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="17" y="23" width="1804" height="1008" extended-state="0" />
+    <frame x="30" y="23" width="1804" height="1008" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15535614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -768,7 +759,7 @@
     <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/album/albFinal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="162" column="0" lean-forward="true" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -791,16 +782,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/views/album.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="54" column="34" lean-forward="false" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+        <state relative-caret-position="307">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/albumRouter_v1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="58" column="13" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        <state relative-caret-position="278">
+          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
           <folding />
         </state>
       </provider>
