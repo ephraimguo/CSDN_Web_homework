@@ -49,12 +49,14 @@
 
       <div class="wrapper">
         <div class="photo-list show">
-          <% photoList[currentAlbum].forEach(ph=>{ %>
+          <% for(let i = 0; i<pageContent.length; i++){ %>
           <div class="photo">
-            <img src="/album1/<%=ph%>" alt="photos">
+
+            <img src="/album1/show/<%=currentAlbum%>/<%=pageContent[i]%>" alt="photos">
             <button>X</button>
+
           </div>
-          <% })%>
+          <% }%>
 
         </div>
       </div>
@@ -63,6 +65,13 @@
         <ul>
           <li><a>First</a></li>
           <!--<li><a>1</a></li>-->
+          <%for(let i = 0; i<(photoList[currentAlbum].length)/photoPerPage; i++) {%>
+
+          <li>
+            <a href="/album1/albums/<%=currentAlbum%>/page/<%=i%>"> <%=(i+1)%>   </a>
+          </li>
+          
+          <% } %>
           <li><a>Last</a></li>
         </ul>
       </nav>
