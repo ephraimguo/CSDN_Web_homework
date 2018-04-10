@@ -31,7 +31,6 @@ function displayPhotoPage(currentPage, currentAlbum){
 router.get('/', function(req, res){
 
   displayPhotoPage(currentPage, currentAlbum);
-  // pageContent.push(photoList[currentAlbum][i]);
   res.render('album', {albumName, photoList, currentAlbum, photoPerPage, currentPage, pageContent});
 });
 
@@ -56,54 +55,50 @@ router.post('/addPhotos', addPhoto, function(req, res){
 });
 
 //photoList, right center
-router.get('/show/'+currentAlbum+'/:phName', function(req, res){
-  displayPhotoPage(currentPage, currentAlbum);
-  console.log(req.params.phName, '----', __dirname);
-  fs.createReadStream(__dirname+"/photosFolder/"+req.params.phName).pipe(res);
-  // res.redirect("back");
-  // let reader = fs.createReadStream(__dirname+"/photosFolder/"+req.params.phName);
-  // if(photoList[currentAlbum] === "" || photoList[currentAlbum] === undefined || photoList[currentAlbum] === null){
-  //   console.log('nothing to show');
-  //   res.redirect('back');
-  // }
-  // else{
-  //   reader.pipe(res);
-  // }
-
-  // console.log(photoList[currentAlbum], 'xxxxxxxxxxx');
-  // fs.createReadStream(__dirname+"/photosFolder/"+req.params.phName).pipe(res);
+router.get('/show/:phName', function(req, res){
+  // console.log(req.params.phName, '*_*_*_*_*_*_*_*_*', __dirname);
+  console.log(req.params.phName,'*_*_*_*_*_*_*_*_*');
+  let rs = fs.createReadStream(__dirname+"/photosFolder/"+req.params.phName);
+  rs.pipe(res);
+});
+//photo del button, X button
+router.get('/del/photos/:pct', function(req, res){
+  let ind = photoList[currentAlbum].indexOf(req.params.pct);
+  photoList[currentAlbum].splice(ind, 1);
+  fs.writeFileSync(__dirname + "/photoName.json", JSON.stringify(albumName));
+  fs.writeFileSync(__dirname + "/photoList.json", JSON.stringify(photoList));
+  res.redirect('back');
 });
 
 
 //album list, on left side
 router.get('/albums/:albumName', function(req, res){
   currentAlbum = req.params.albumName;
-  console.log('this is album list router');
+  currentPage = 1;
+  console.log('this is album-list router');
   res.redirect("/album1");
 });
+//album-list del btn, on left side
+router.get('/del/album-list/:albn', function(req, res){
+  delete photoList[req.params.albn];
+  let ind = albumName.indexOf(req.params.albn);
+  console.log(req.params.albn,'x=x=x=x=x',ind,'x=x=x=x=x',albumName);
+  albumName.splice(ind, 1);
+  currentAlbum = albumName[0]?albumName[0]:console.log('no album yet');
+  currentPage = 1;
+  fs.writeFileSync(__dirname + "/photoName.json", JSON.stringify(albumName));
+  fs.writeFileSync(__dirname + "/photoList.json", JSON.stringify(photoList));
+  res.redirect("back");
+});
+
 
 //album pagination links, on right bottom
-router.get('/albums/'+currentAlbum+'/page/:pageNum', function(req, res){
-  // here also need some codes
+router.get('/albums/page/:pageNum', function(req, res){
   currentPage = Number(req.params.pageNum)+1;
   console.log(currentPage,'-----page-------','page router');
   displayPhotoPage(currentPage, currentAlbum);
   res.redirect("/album1");
 });
-
-// function pagination(){
-//   for(let i = 0; i<currentAlbumLength/photoPerPage; i++) {
-//     let pageNavLink = document.createElement('a');
-//     let pageNavLi = document.createElement('li');
-//     pageNavLink.innerText = `${i + 1}`;
-//     pageNavLink.onclick = function () {
-//       currentPage = i + 1;
-//     };
-//     pageNavLi.appendChild(pageNavLink);
-//     pageNav.appendChild(pageNavLi);
-//   }
-//
-// }
 
 
 module.exports = router;

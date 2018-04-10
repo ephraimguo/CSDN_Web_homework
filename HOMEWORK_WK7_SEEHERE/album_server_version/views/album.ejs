@@ -26,7 +26,7 @@
         <% albumName.forEach(albn=>{ %>
           <li class="album">
           <a href="/album1/albums/<%=albn%>/" class="album-link"><%=albn%></a>
-          <button class="btn-del-album">X</button>
+          <button class="btn-del-album"><a href="/album1/del/album-list/<%=albn%>">X</a></button>
           </li>
         <% }) %>
 
@@ -52,8 +52,8 @@
           <% for(let i = 0; i<pageContent.length; i++){ %>
           <div class="photo">
 
-            <img src="/album1/show/<%=currentAlbum%>/<%=pageContent[i]%>" alt="photos">
-            <button>X</button>
+            <img src="/album1/show/<%=pageContent[i]%>" alt="photos">
+            <button><a href="/album1/del/photos/<%=pageContent[i]%>">X</a></button>
 
           </div>
           <% }%>
@@ -68,7 +68,7 @@
           <%for(let i = 0; i<(photoList[currentAlbum].length)/photoPerPage; i++) {%>
 
           <li>
-            <a href="/album1/albums/<%=currentAlbum%>/page/<%=i%>"> <%=(i+1)%>   </a>
+            <a href="/album1/albums/page/<%=i%>"> <%=(i+1)%>   </a>
           </li>
           
           <% } %>
