@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e4a0fdf-500e-4823-a752-032ae44d0bfa" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/message_board.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/middleWare/logCheck.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/msg.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/msgList.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/userList.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/views/message_board.ejs" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/albumRouter_v1.js" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/albumRouter_v1.js" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photoList.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photoList.json" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photoName.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photoName.json" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photosFolder/d543b342ff3eb49715dca23ab487866d" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/views/album.ejs" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/views/album.ejs" />
+      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/xXxXxXx.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,34 +23,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4759036">
+    <splitter split-orientation="horizontal" split-proportion="0.55546933">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="albumRouter_v1.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/albumRouter_v1.js">
+          <file leaf-file-name="message_board.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/message_board.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="188">
-                  <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+                <state relative-caret-position="280">
+                  <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="photoName.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photoName.json">
+          <file leaf-file-name="logCheck.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/middleWare/logCheck.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="photoList.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photoList.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+                <state relative-caret-position="60">
+                  <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -56,32 +49,32 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="album.ejs" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/views/album.ejs">
+        <leaf>
+          <file leaf-file-name="message_board.ejs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/views/message_board.ejs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="279">
-                  <caret line="55" column="58" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="58" />
+                <state relative-caret-position="259">
+                  <caret line="134" column="24" lean-forward="true" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/app.js">
+          <file leaf-file-name="userList.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/userList.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="383">
-                  <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="albFinal.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/album/albFinal.js">
+          <file leaf-file-name="msg.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/msg.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+                <state relative-caret-position="30">
+                  <caret line="0" column="201" lean-forward="true" selection-start-line="0" selection-start-column="201" selection-end-line="0" selection-end-column="201" />
                   <folding />
                 </state>
               </provider>
@@ -102,9 +95,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>photoName</find>
+      <find>profile</find>
+      <find>npsp</find>
     </findStrings>
     <replaceStrings>
       <replace>albumName</replace>
+      <replace>log-reg</replace>
+      <replace>nbsp</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -150,6 +147,14 @@
         <option value="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photoName.json" />
         <option value="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/views/album.ejs" />
         <option value="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/albumRouter_v1.js" />
+        <option value="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/app.js" />
+        <option value="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/users.js" />
+        <option value="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/middleWare/logCheck.js" />
+        <option value="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/userList.json" />
+        <option value="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/msgList.json" />
+        <option value="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/msg.json" />
+        <option value="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/views/message_board.ejs" />
+        <option value="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/message_board.js" />
       </list>
     </option>
   </component>
@@ -168,13 +173,14 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/node_modules" />
     <handled-path value="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/node_modules" />
+    <handled-path value="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/node_modules" />
     <handled-path value="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise2_renderWk5Page/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="43" />
+    <option name="x" value="32" />
     <option name="y" value="23" />
-    <option name="width" value="1804" />
-    <option name="height" value="1008" />
+    <option name="width" value="1769" />
+    <option name="height" value="1007" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -241,8 +247,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,13 +257,7 @@
             <path>
               <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
-              <item name="HOMEWORK_WK6_TUTOSEERHERE" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
-              <item name="HOMEWORK_WK6_TUTOSEERHERE" type="462c0819:PsiDirectoryNode" />
-              <item name="album" type="462c0819:PsiDirectoryNode" />
+              <item name="HOMEWORK_WK5_TUTORSEEHERE" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
@@ -271,6 +269,13 @@
               <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
               <item name="HOMEWORK_WK7_SEEHERE" type="462c0819:PsiDirectoryNode" />
               <item name="album_server_version" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="HOMEWORK_WK7_SEEHERE" type="462c0819:PsiDirectoryNode" />
+              <item name="album_server_version" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
@@ -286,10 +291,25 @@
               <item name="album_server_version" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="HOMEWORK_WK7_SEEHERE" type="462c0819:PsiDirectoryNode" />
+              <item name="message_board" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="HOMEWORK_WK7_SEEHERE" type="462c0819:PsiDirectoryNode" />
+              <item name="message_board" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,7 +377,8 @@
       <workItem from="1523176965694" duration="5811000" />
       <workItem from="1523202041057" duration="7000" />
       <workItem from="1523240222671" duration="14840000" />
-      <workItem from="1523325684569" duration="4666000" />
+      <workItem from="1523325684569" duration="4799000" />
+      <workItem from="1523495786817" duration="22288000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1521445342400</created>
@@ -450,23 +471,40 @@
       <option name="project" value="LOCAL" />
       <updated>1523264684834</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Server side album done, proceed with the message board project">
+      <created>1523330843826</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1523330843827</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89470000" />
+    <option name="totallyTimeSpent" value="111891000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="23" width="1804" height="1008" extended-state="0" />
+    <frame x="32" y="23" width="1769" height="1007" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2551879" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16647597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2719101" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25084364" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -474,7 +512,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -494,80 +531,16 @@
     <MESSAGE value="wk7 server version alb start --1" />
     <MESSAGE value="server album now can read the photos name" />
     <MESSAGE value="paginantion done, now need to prceed designated album and page... and del function" />
-    <option name="LAST_COMMIT_MESSAGE" value="paginantion done, now need to prceed designated album and page... and del function" />
+    <MESSAGE value="Server side album done, proceed with the message board project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server side album done, proceed with the message board project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/album/album.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK5_TUTORSEEHERE/hmwk.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="137" column="21" lean-forward="true" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK5_TUTORSEEHERE/wk5_homework.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/scss/rewirteStyleSheet.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="163" column="17" lean-forward="false" selection-start-line="163" selection-start-column="17" selection-end-line="163" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/css/rewirteStyleSheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="53" column="46" lean-forward="true" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/hmwk_origin.css" />
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/wk6_homework.html" />
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise1_copyFile/dirTest1/a.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise1_copyFile/dirTest1/b.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise1_copyFile/dirTest1/dirTestInner1/c.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise1_copyFile/dirTest2/a.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -764,18 +737,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/album/albFinal.js">
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photoName.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -788,26 +753,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photoName.json">
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/album/albFinal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK5_TUTORSEEHERE/hmwk.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1808">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/middleWare/logCheck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/msgList.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/views/album.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="55" column="58" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="58" />
+        <state relative-caret-position="428">
+          <caret line="55" column="58" lean-forward="false" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/albumRouter_v1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+        <state relative-caret-position="57">
+          <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/userList.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/msg.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="0" column="201" lean-forward="true" selection-start-line="0" selection-start-column="201" selection-end-line="0" selection-end-column="201" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/views/message_board.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="134" column="24" lean-forward="true" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/message_board.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding />
         </state>
       </provider>

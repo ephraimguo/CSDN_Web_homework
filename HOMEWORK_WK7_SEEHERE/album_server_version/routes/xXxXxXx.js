@@ -1,7 +1,0 @@
-photoListX = {
-  "default":[]
-};
-
-photoName = [
-  "default"
-];

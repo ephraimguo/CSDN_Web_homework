@@ -56,8 +56,6 @@ router.post('/addPhotos', addPhoto, function(req, res){
 
 //photoList, right center
 router.get('/show/:phName', function(req, res){
-  // console.log(req.params.phName, '*_*_*_*_*_*_*_*_*', __dirname);
-  console.log(req.params.phName,'*_*_*_*_*_*_*_*_*');
   let rs = fs.createReadStream(__dirname+"/photosFolder/"+req.params.phName);
   rs.pipe(res);
 });
@@ -82,7 +80,6 @@ router.get('/albums/:albumName', function(req, res){
 router.get('/del/album-list/:albn', function(req, res){
   delete photoList[req.params.albn];
   let ind = albumName.indexOf(req.params.albn);
-  console.log(req.params.albn,'x=x=x=x=x',ind,'x=x=x=x=x',albumName);
   albumName.splice(ind, 1);
   currentAlbum = albumName[0]?albumName[0]:console.log('no album yet');
   currentPage = 1;
