@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e4a0fdf-500e-4823-a752-032ae44d0bfa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/message_board.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/middleWare/logCheck.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/msg.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/msgList.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/userList.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/views/message_board.ejs" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/albumRouter_v1.js" afterPath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/albumRouter_v1.js" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/xXxXxXx.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +21,8 @@
           <file leaf-file-name="message_board.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/message_board.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="280">
-                  <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+                <state relative-caret-position="15">
+                  <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -49,12 +41,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="message_board.ejs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/views/message_board.ejs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="259">
-                  <caret line="134" column="24" lean-forward="true" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="24" />
+                  <caret line="134" column="24" lean-forward="false" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -73,8 +65,8 @@
           <file leaf-file-name="msg.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/msg.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="0" column="201" lean-forward="true" selection-start-line="0" selection-start-column="201" selection-end-line="0" selection-end-column="201" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="201" lean-forward="false" selection-start-line="0" selection-start-column="201" selection-end-line="0" selection-end-column="201" />
                   <folding />
                 </state>
               </provider>
@@ -177,7 +169,7 @@
     <handled-path value="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise2_renderWk5Page/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
+    <option name="x" value="31" />
     <option name="y" value="23" />
     <option name="width" value="1769" />
     <option name="height" value="1007" />
@@ -268,33 +260,6 @@
               <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
               <item name="HOMEWORK_WK7_SEEHERE" type="462c0819:PsiDirectoryNode" />
-              <item name="album_server_version" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
-              <item name="HOMEWORK_WK7_SEEHERE" type="462c0819:PsiDirectoryNode" />
-              <item name="album_server_version" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
-              <item name="HOMEWORK_WK7_SEEHERE" type="462c0819:PsiDirectoryNode" />
-              <item name="album_server_version" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
-              <item name="HOMEWORK_WK7_SEEHERE" type="462c0819:PsiDirectoryNode" />
-              <item name="album_server_version" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
-              <item name="HOMEWORK_WK7_SEEHERE" type="462c0819:PsiDirectoryNode" />
               <item name="message_board" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -302,7 +267,7 @@
               <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
               <item name="HOMEWORK_WK7_SEEHERE" type="462c0819:PsiDirectoryNode" />
               <item name="message_board" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="sessions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -378,7 +343,8 @@
       <workItem from="1523202041057" duration="7000" />
       <workItem from="1523240222671" duration="14840000" />
       <workItem from="1523325684569" duration="4799000" />
-      <workItem from="1523495786817" duration="22288000" />
+      <workItem from="1523495786817" duration="22418000" />
+      <workItem from="1523525093687" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1521445342400</created>
@@ -478,11 +444,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523330843827</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="message board done~~">
+      <created>1523524884476</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1523524884476</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111891000" />
+    <option name="totallyTimeSpent" value="112040000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -494,13 +467,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="23" width="1769" height="1007" extended-state="0" />
+    <frame x="31" y="23" width="1769" height="1007" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16647597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -512,6 +484,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -532,7 +505,8 @@
     <MESSAGE value="server album now can read the photos name" />
     <MESSAGE value="paginantion done, now need to prceed designated album and page... and del function" />
     <MESSAGE value="Server side album done, proceed with the message board project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Server side album done, proceed with the message board project" />
+    <MESSAGE value="message board done~~" />
+    <option name="LAST_COMMIT_MESSAGE" value="message board done~~" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -688,13 +662,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/photoList" />
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/xXxXxXx.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/routes/xXxXxXx.js" />
     <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/public/Album_v1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
@@ -741,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -749,7 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
           <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -765,7 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -773,7 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,7 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,7 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1808">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,7 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,7 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
           <caret line="55" column="58" lean-forward="false" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,7 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -851,8 +807,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/msg.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="0" column="201" lean-forward="true" selection-start-line="0" selection-start-column="201" selection-end-line="0" selection-end-column="201" />
+        <state relative-caret-position="0">
+          <caret line="0" column="201" lean-forward="false" selection-start-line="0" selection-start-column="201" selection-end-line="0" selection-end-column="201" />
           <folding />
         </state>
       </provider>
@@ -860,15 +816,15 @@
     <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/views/message_board.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
-          <caret line="134" column="24" lean-forward="true" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="24" />
+          <caret line="134" column="24" lean-forward="false" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/message_board/routes/message_board.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        <state relative-caret-position="15">
+          <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding />
         </state>
       </provider>
