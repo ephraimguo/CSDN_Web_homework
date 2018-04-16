@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%=title%></title>
+</head>
+<body>
+
+
+<a href="/article/create">+ Write New</a>
+<h1>Contents</h1>
+<%artList.forEach(art=>{%>
+  <h2>
+    <%=art.title%>
+  </h2>
+  <a href="/article/<%=art.id%>/edit">Edit it</a>
+  <a href="/article/<%=art.id%>/del">Remove it</a>
+  <p>Time Created: <%=art.createTime%> | Last Updated: <%=art.updateTime%></p>
+  <p>
+    <%=art.body%>
+  </p>
+  <hr>
+<%})%>
+</body>
+</html>
