@@ -2,139 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e4a0fdf-500e-4823-a752-032ae44d0bfa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/articleModels.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/albumRouter_v1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/play1_albumModels.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/play1_albumsv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/views/album.ejs" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/async/package.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/async/package.json" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/bluebird/package.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/bluebird/package.json" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/bson/package.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/bson/package.json" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/kareem/package.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/kareem/package.json" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/lodash.get/package.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/lodash.get/package.json" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/mongodb-core/package.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/mongodb-core/package.json" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/mongodb/package.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/mongodb/package.json" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/mongoose-legacy-pluralize/package.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/mongoose-legacy-pluralize/package.json" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/mongoose/package.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/mongoose/package.json" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/mpath/package.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/mpath/package.json" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/mquery/node_modules/sliced/package.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/mquery/node_modules/sliced/package.json" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/mquery/package.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/mquery/package.json" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Makefile" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Makefile" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/binding.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/binding.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/create_string.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/create_string.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/custom_function_bridge.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/custom_function_bridge.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/custom_importer_bridge.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/custom_importer_bridge.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_context_wrapper.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_context_wrapper.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/boolean.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/boolean.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/color.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/color.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/error.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/error.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/factory.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/factory.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/list.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/list.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/map.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/map.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/null.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/null.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/number.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/number.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/string.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/binding/src/sass_types/string.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/ast.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/ast.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/base64vlq.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/base64vlq.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/bind.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/bind.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/cencode.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/cencode.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/color_maps.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/color_maps.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/constants.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/constants.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/context.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/context.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/cssize.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/cssize.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/emitter.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/emitter.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/environment.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/environment.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/error_handling.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/error_handling.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/eval.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/eval.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/expand.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/expand.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/extend.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/extend.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/file.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/file.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/functions.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/functions.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/inspect.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/inspect.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/json.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/json.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/lexer.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/lexer.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/listize.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/listize.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/memory_manager.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/memory_manager.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/node.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/node.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/output.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/output.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/parser.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/parser.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/plugins.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/plugins.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/position.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/position.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/prelexer.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/prelexer.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/remove_placeholders.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/remove_placeholders.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/sass.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/sass.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/sass2scss.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/sass2scss.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/sass_context.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/sass_context.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/sass_functions.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/sass_functions.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/sass_util.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/sass_util.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/sass_values.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/sass_values.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/source_map.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/source_map.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/to_c.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/to_c.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/to_value.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/to_value.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/units.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/units.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/utf8_string.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/utf8_string.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/util.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/util.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/values.o.d" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/.deps/Release/obj.target/libsass/src/libsass/src/values.o.d" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/binding.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/binding.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/create_string.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/create_string.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/custom_function_bridge.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/custom_function_bridge.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/custom_importer_bridge.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/custom_importer_bridge.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/sass_context_wrapper.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/sass_context_wrapper.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/boolean.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/boolean.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/color.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/color.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/error.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/error.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/factory.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/factory.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/list.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/list.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/map.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/map.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/null.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/null.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/number.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/number.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/string.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/binding/src/sass_types/string.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/ast.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/ast.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/base64vlq.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/base64vlq.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/bind.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/bind.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/cencode.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/cencode.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/color_maps.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/color_maps.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/constants.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/constants.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/context.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/context.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/cssize.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/cssize.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/emitter.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/emitter.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/environment.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/environment.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/error_handling.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/error_handling.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/eval.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/eval.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/expand.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/expand.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/extend.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/extend.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/file.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/file.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/functions.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/functions.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/inspect.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/inspect.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/json.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/json.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/lexer.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/lexer.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/listize.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/listize.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/memory_manager.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/memory_manager.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/node.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/node.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/output.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/output.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/parser.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/parser.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/plugins.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/plugins.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/position.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/position.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/prelexer.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/prelexer.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/remove_placeholders.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/remove_placeholders.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/sass.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/sass.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/sass2scss.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/sass2scss.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/sass_context.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/sass_context.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/sass_functions.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/sass_functions.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/sass_util.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/sass_util.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/sass_values.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/sass_values.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/source_map.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/source_map.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/to_c.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/to_c.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/to_value.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/to_value.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/units.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/units.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/utf8_string.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/utf8_string.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/util.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/util.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/values.o" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/obj.target/libsass/src/libsass/src/values.o" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/sass.a" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/Release/sass.a" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/binding.target.mk" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/binding.target.mk" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/config.gypi" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/config.gypi" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/src/libsass.target.mk" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/node-sass/build/src/libsass.target.mk" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/regexp-clone/package.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/regexp-clone/package.json" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/require_optional/package.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/require_optional/package.json" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/resolve-from/package.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/resolve-from/package.json" />
-      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/sliced/package.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules/sliced/package.json" />
+      <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/app.js" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/app.js" />
       <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/package-lock.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/package-lock.json" />
       <change beforePath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/package.json" afterPath="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/package.json" />
     </list>
@@ -149,58 +22,66 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="articlePub.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/articlePub.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/users.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="articleModels.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/articleModels.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.43189964">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="823">
+                  <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="play1_albumsv.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/play1_albumsv.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="230">
+                  <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="album.ejs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/views/album.ejs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="albumRouter_v1.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/albumRouter_v1.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="230">
+                  <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="play1_albumModels.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/play1_albumModels.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="207">
+                  <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -230,8 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HOMEWORK_WK5_助教看这里/hmwk.css" />
-        <option value="$PROJECT_DIR$/HOMEWORK_WK6_助教看这里/wk5_css_rewrite/hmwk_origin.css" />
         <option value="$PROJECT_DIR$/HOMEWORK_WK6_助教看这里/wk5_css_rewrite/wk6_homework.html" />
         <option value="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/hmwk_origin.css" />
         <option value="$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/wk6_homework_v2.html" />
@@ -279,8 +158,10 @@
         <option value="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/views/editArticle.ejs" />
         <option value="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/views/createArticle.ejs" />
         <option value="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/views/ap.ejs" />
-        <option value="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/app.js" />
         <option value="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/articleModel.js" />
+        <option value="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/app.js" />
+        <option value="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/play1_albumModels.js" />
+        <option value="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/play1_albumsv.js" />
       </list>
     </option>
   </component>
@@ -304,7 +185,7 @@
     <handled-path value="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="347" />
+    <option name="x" value="326" />
     <option name="y" value="22" />
     <option name="width" value="2032" />
     <option name="height" value="1362" />
@@ -384,6 +265,24 @@
             <path>
               <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="HOMEWORK_WK7_SEEHERE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="HOMEWORK_WK7_SEEHERE" type="462c0819:PsiDirectoryNode" />
+              <item name="album_server_version" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="HOMEWORK_WK7_SEEHERE" type="462c0819:PsiDirectoryNode" />
+              <item name="album_server_version" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSDN_Web_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSDN_Web_homework" type="462c0819:PsiDirectoryNode" />
               <item name="HOMEWORK_WK8_SEEHERE" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -426,19 +325,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/public/stylesheets" />
-      <recent name="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/public" />
-      <recent name="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise2_renderWk5Page/public/stylesheets" />
-      <recent name="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise2_renderWk5Page/public/images" />
-      <recent name="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise2_ejsRendering" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise2_renderWk5Page/public/stylesheets" />
       <recent name="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise2_renderWk5Page/views" />
       <recent name="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise2_ejsRendering/wk5_productPage" />
       <recent name="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise1" />
       <recent name="$PROJECT_DIR$/HOMEWORK_WK6_助教看这里" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes" />
+      <recent name="$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/views" />
+      <recent name="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/public/stylesheets" />
+      <recent name="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/album_server_version/public" />
+      <recent name="$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise2_renderWk5Page/public/stylesheets" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -4648,11 +4547,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523855549911</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="wk8 play1 album mongodb version">
+      <created>1523890627755</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1523890627755</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122596000" />
+    <option name="totallyTimeSpent" value="123582000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -4664,16 +4570,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="347" y="22" width="2032" height="1362" extended-state="0" />
+    <frame x="326" y="22" width="2032" height="1362" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16757832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16757832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25019985" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24140687" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -4723,22 +4630,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise2_renderWk5Page/public/stylesheets/style.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise2_renderWk5Page/public/stylesheets/product.css" />
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK6_TUTOSEERHERE/wk5_css_rewrite/wk6_homework_v2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="129" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise2_renderWk5Page/views/display.ejs" />
     <entry file="file://$PROJECT_DIR$/HOMEWORK_WK7_SEEHERE/practise2_renderWk5Page/views/error.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -5030,18 +4921,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/app.js">
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/articlePub.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        <state relative-caret-position="966">
+          <caret line="42" column="3" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/users.js">
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="823">
+          <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -5054,10 +4945,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/articlePub.js">
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        <state relative-caret-position="207">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/views/album.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/play1_albumModels.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/albumRouter_v1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HOMEWORK_WK8_SEEHERE/routes/play1_albumsv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
