@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: "Helvetica", "Heiti SC", sans-serif;
+}
+
+.container{
+    min-height: 300px;
+    min-width: 918px;
+    background-color: #fff;
+    margin: 10px 20px;
+}
+.container a{
+    text-decoration: none;
+}
+
+/*this is header*/
+header h4{
+    height: 25px;
+    padding: 10px 0 0 10px;
+    color: #eee;
+    background: linear-gradient(to left, #eee, #999);
+    line-height: 25px;
+}
+
+header h4>span{
+    color: #fff;
+    font-size: 20px;
+    /*line-height: 25px;*/
+}
+
+/*header end*/
+
+/*this is the main album part*/
+.content{
+    background-color: #eee;
+    min-height:275px;
+    display:flex;
+}
+
+.box{
+    background: #fff;
+    min-height: 275px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+/*album left part*/
+.left{
+    width:30%;
+    border-right: none;
+}
+.album-list{
+    margin: 5px 15px;
+    box-sizing: border-box;
+    border: #ccc solid 1px;
+    border-radius: 5px;
+}
+.album{
+    height: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+.album:last-child{
+    border: none;
+}
+.album-list>li.show{
+    background: linear-gradient(to right, #fff, #eee);
+}
+
+.album-link{
+    line-height: 40px;
+    padding: 0 25px;
+    color: #2c70dd;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn-del-album{
+    float: right;
+    padding: 5px 5px;
+    margin-right: 20px;
+    margin-top: 10px;
+    background-color: #fff;
+    color: #ccc;
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 10px;
+}
+.btn-del-album:hover{
+    background-color: #eee;
+}
+/*album left part end*/
+
+.display{
+    width: 70%;
+}
+.display>.button-grp{
+    position: relative;
+    margin: 5px 10px;
+}
+
+/*create and add button*/
+.button-grp form{
+    display: inline-block;
+}
+
+.button-grp form input{
+    padding: 5px 5px;
+    /*margin: 0 15px;*/
+    background-color: #2c70dd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    cursor: pointer;
+}
+.button-grp .form-addphoto input:last-child{
+    /*position:absolute;*/
+    /*clip:rect(0 0 0 0);*/
+}
+.button-grp label{
+    background-color: #45af3b;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 11px;
+}
+/*create and add button end*/
+
+/*photolist start*/
+.wrapper>div{
+    min-height: 250px;
+    background-color: #eee;
+    /*display: none;*/
+}
+
+div.show{
+    display: block;
+    background: linear-gradient(to left, #fff, #eee);
+}
+
+.photo{
+    display: inline-block;
+    margin: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+}
+.photo>img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.photo>button{
+    padding: 5px 5px;
+    background-color: #fff;
+    color: #ccc;
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 0.5;
+}
+.photo>button:hover{
+    background-color: #eee;
+    opacity: 0.9;
+}
+.photo-list::after{
+    content: '';
+    display:block;
+    clear: both;
+}
+
+
+/*photolist end*/
+/*pagination start*/
+.display nav ul{
+    border: #ccc solid 1px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;
+}
+.display nav li{
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 13px;
+    height: 25px;
+    border-right: 1px solid #ccc;
+    text-align: center;
+}
+.display nav li>a{
+    color: #2c70dd;
+    line-height: 25px;
+}
+
+.display nav li>a:hover{
+    cursor: pointer;
+}
+
+.display nav li:last-child{
+    text-align: center;
+    border: none;
+}
+/*pagination end*/
+
+
+
+
+

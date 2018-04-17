@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <title>Album Server Version v1.0</title>
+  <link rel="stylesheet" href="stylesheets/album.css">
+
+</header>
+
+<body>
+<div class="container">
+  <header>
+    <hgroup>
+      <h4>Album Name<span class="album-title">&nbsp;&nbsp;&nbsp;&nbsp; </span></h4>
+    </hgroup>
+
+  </header>
+
+
+  <div class="content">
+    <div class="box left">
+      <ul class="album-list">
+        <!--<li class="album">-->
+          <!--<a href="#" class="album-link">default</a>-->
+          <!--<button class="btn-del-album">X</button>-->
+        <!--</li>-->
+        <% albumName.forEach(albn=>{ %>
+          <li class="album">
+          <a href="/album1/albums/<%=albn%>/" class="album-link"><%=albn%></a>
+          <button class="btn-del-album"><a href="/album1/del/album-list/<%=albn%>">X</a></button>
+          </li>
+        <% }) %>
+
+
+      </ul>
+    </div>
+
+    <div class="box display">
+      <div class="button-grp">
+        <form class="form-addname" action="/album1/addAlbumName" method="post">
+          <input id="new-alb" type="text" placeholder="Album Name" name="new-album">
+          <input type="submit" value="Go~">
+        </form>
+        <form class="form-addphoto" action="/album1/addPhotos" method="post" enctype="multipart/form-data">
+          <!--<label for="add-file">+ Add Photo</label>-->
+          <input id='add-file' type="file" name="singlePhoto">
+          <input type="submit" value="GoGo~">
+        </form>
+      </div>
+
+      <div class="wrapper">
+        <div class="photo-list show">
+          <% for(let i = 0; i<pageContent.length; i++){ %>
+          <div class="photo">
+
+            <img src="/album1/show/<%=pageContent[i]%>" alt="photos">
+            <button><a href="/album1/del/photos/<%=pageContent[i]%>">X</a></button>
+
+          </div>
+          <% }%>
+
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a>First</a></li>
+          <!--<li><a>1</a></li>-->
+          <%for(let i = 0; i<(photoList[currentAlbum].length)/photoPerPage; i++) {%>
+
+          <li>
+            <a href="/album1/albums/page/<%=i%>"> <%=(i+1)%>   </a>
+          </li>
+          
+          <% } %>
+          <li><a>Last</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
