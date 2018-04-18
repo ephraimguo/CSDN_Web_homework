@@ -61,7 +61,7 @@
         <ul>
           <li><a>First</a></li>
           <!--<li><a>1</a></li>-->
-          <%for(let i = 0; i<(photoList.length)/photoPerPage; i++) {%>
+          <%for(let i = 0; i<(currentAlbum.photoList.length)/photoPerPage; i++) {%>
 
           <li>
             <a href="/album/albums/page/<%=i%>"> <%=(i+1)%>   </a>

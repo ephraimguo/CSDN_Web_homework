@@ -8,12 +8,15 @@ var addPhotoMW = multer({
   dest: __dirname + '/photosFolder/'
 });
 var photoUpload = addPhotoMW.single('single_pic'); // arg inside is the name of the form input
-var currentAlbum = Album.find({}, function(err, cAlb){
-  return cAlb;
-});
+var currentAlbum = {};
+async function getFirst(){
+  let table = await Album.find({});
+  currentAlbum = table[0];
+  console.log(currentAlbum);
+}
+getFirst();
 
-
-photoList = currentAlbum.photoList || [];
+photoList = currentAlbum.photoList;
 var photoPerPage = 3;
 var currentPage = 1;
 var pageContent = [];
@@ -22,8 +25,8 @@ var pageContent = [];
 // render the main page of the album
 router.get('/', async function(req, res){
   let albumList = await Album.find({});
-  await showCurrentPage(currentPage, currentAlbum);
-  console.log('xxxxxxxxxx', typeof currentAlbum);
+  showCurrentPage(currentPage, currentAlbum);
+  console.log('xxxxxxxxxx', currentAlbum);
   res.render('play1_album', {albumList, photoPerPage, currentPage, pageContent, currentAlbum, photoList});
 });
 
@@ -84,21 +87,21 @@ router.get('/delalbum/:currentAlbumId', function(req, res){
 
 
 // function to display all the corresponding page
-async function showCurrentPage(currentPage, currentAlbum){
-  pageContent = [];
-  if(currentAlbum){
-    for(let i=(currentPage-1)*photoPerPage; i<currentPage*photoPerPage; i++) {
-      if (photoList && photoList[i] !== undefined && photoList[i] !== null) {
-        pageContent.push(photoList[i]);
-      }
-      else {
-        console.log('no enough pic');
+function showCurrentPage(currentPage, currentAlbum){
+    pageContent = [];
+    if(currentAlbum.photoList){
+      for(let i=(currentPage-1)*photoPerPage; i<currentPage*photoPerPage; i++) {
+        if (currentAlbum.photoList && currentAlbum.photoList[i] !== undefined && currentAlbum.photoList[i] !== null) {
+          pageContent.push(currentAlbum.photoList[i]);
+        }
+        else {
+          console.log('no enough pic');
+        }
       }
     }
-  }
-  else{
-    console.log('current album no pic yet');
-  }
+    else{
+      console.log('current album no pic yet');
+    }
 }
 
 module.exports=router;
