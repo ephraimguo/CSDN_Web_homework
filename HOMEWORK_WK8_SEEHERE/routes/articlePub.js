@@ -3,19 +3,28 @@ const router = express.Router();
 const Article = require('./articleModels');
 
 router.get('/', async function(req, res, next){
-  const artList = await Article.find();
-  // res.locals.artList = artList;
-  res.render("ap",{title:'Article Publication',artList});
+  const page = +req.query.page || 1;
+  const artList = await Article.find().select('-body').sort('-updateTime').limit(2).skip((page-1)*2);
+  const prevPage = page-1>0?page-1:1;
+  const nextPage = page+1;
+
+  res.render("ap",{title:'Article Publication',artList, prevPage, nextPage});
 });
+
 
 // create article
 router.post('/create', async function(req, res){
   const {title, body} = req.body;
   const doc = new Article({
-    title, body, createTime: new Date(), updateTime:new Date()
+    title, body, createTime:new Date(), updateTime:new Date()
   });
-  await doc.save();
-  res.redirect('/article');
+  try{
+    await doc.save();
+    res.redirect('/article');
+  }catch(err){
+    res.render('createArticle', {error: err.errors.title.message});
+  }
+
 });
 // render creating page
 router.get('/create', function(req, res){

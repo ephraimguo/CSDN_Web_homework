@@ -5,12 +5,20 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var sassMiddleware = require('node-sass-middleware');
+var session = require('express-session');
+var FileStore = require('session-file-store')(session);
+
+const sessionMW = session({
+  store: new FileStore(),
+  secret: 'datasecure',
+  cookie: {maxAge: 60000}
+});
 
 var index = require('./routes/index');
 var users = require('./routes/users');
 var article = require('./routes/articlePub');
 var album = require('./routes/play1_albumsv');
-
+var mbd = require('./routes/message_board');
 var app = express();
 
 // view engine setup
@@ -23,6 +31,7 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+app.use(sessionMW);
 app.use(sassMiddleware({
   src: path.join(__dirname, 'public'),
   dest: path.join(__dirname, 'public'),
@@ -35,6 +44,7 @@ app.use('/', index);
 app.use('/users', users);
 app.use('/article', article);
 app.use('/album', album);
+app.use('/mbd', mbd);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

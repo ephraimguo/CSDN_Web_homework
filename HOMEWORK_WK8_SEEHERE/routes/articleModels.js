@@ -3,7 +3,10 @@ mongoose.connect('mongodb://localhost/test');
 mongoose.Promise = Promise;
 
 const Article = mongoose.model("Article", {
-  title: String,
+  title: {
+    type: String,
+    maxlength: [10, 'title no more than 15 charactors']
+  },
   body: String,
   updateTime: Date,
   createTime: Date
